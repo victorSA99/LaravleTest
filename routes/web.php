@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 //rutas publicas
 Route::get('login', 'App\Http\Controllers\web\AuthViewController@index')->name('login');
+Route::get('/', 'App\Http\Controllers\web\AuthViewController@index')->name('login');
 // Route::get('login', 'App\Http\Controllers\web\AuthViewController@index');
 Route::post('web-login', 'App\Http\Controllers\web\AuthViewController@login');
 Route::post('web-logout', 'App\Http\Controllers\web\AuthViewController@logout');

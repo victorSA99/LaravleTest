@@ -26,6 +26,7 @@
             <thead class="bg-blue-600 text-white">
                 <tr>
                     <th class="px-4 py-2 text-center">Nombre</th>
+                    <th class="px-4 py-2 text-center">Correo</th>
                     <th class="px-4 py-2 text-center">Rol</th>
                     <th class="px-4 py-2 text-center">Acciones</th>
                 </tr>
@@ -34,6 +35,7 @@
                 @foreach($users as $user)
                     <tr>
                         <td class="px-4 py-2 text-center">{{ $user->name }}</td>
+                        <td class="px-4 py-2 text-center">{{ $user->email }}</td>
                         <td class="px-4 py-2 text-center">{{ ucfirst($user->rol) }}</td>
                         <td class="px-4 py-2 text-center">
                             <div class="flex justify-center space-x-4">
