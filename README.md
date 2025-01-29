@@ -1,4 +1,4 @@
-# Proyecto Laravel 10 - Gestión de Usuarios
+# Proyecto Laravel 10 - Agendar Citas
 
 Este proyecto es una aplicación de gestión de usuarios desarrollada en Laravel 10. Proporciona funcionalidades básicas como creación, edición, eliminación y visualización de usuarios.
 
