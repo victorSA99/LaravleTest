@@ -18,7 +18,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto localmente:
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+[git clone https://github.com/tu-usuario/nombre-del-repositorio.git](https://github.com/victorSA99/LaravleTest)
 cd nombre-del-repositorio
 ```
 
